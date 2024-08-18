@@ -1,7 +1,7 @@
 import anthropic
 import streamlit as st
 
-st.secret("api_key")
+api_key = st.secrets["api_key"]
 
 
 # Function to call the Anthropic API and get a meal suggestion
